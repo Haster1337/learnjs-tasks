@@ -1,0 +1,9 @@
+Accept: * / *
+Accept-Charset: utf-8
+Accept-Encoding: gzip,deflate,sdch
+Connection: keep-alive
+Host: google.com
+Origin: http://javascript.info
+Referer: http://javascript.info/some/url
+
+Origin нужен, потому что referer может отсутствовать
